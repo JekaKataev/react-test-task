@@ -13,7 +13,7 @@ const AnimatedSquare: React.FC<AnimatedSquareProps> = ({ color, index, totalSqua
   const variants: Variants = {
     initial: { x: '-100%' },
     animate: { x: position },
-    exit: (custom: number) => ({ x: custom > index ? '100%' : `${totalSquares * 20 + 40}vw ` })
+    exit: (custom: number) => ({ x: custom > index ? '100%' : `${totalSquares * 20 + 80}vw ` })
   };
 
   return (
